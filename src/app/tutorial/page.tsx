@@ -146,25 +146,6 @@ export default function Tutorial() {
           </ol>
         </section>
 
-        {/* Other Skills */}
-        <section className="mb-16">
-          <h2 className="text-xs tracking-[0.2em] text-zinc-400 mb-6 font-medium">OTHER SKILLS TO EXPLORE</h2>
-          <div className="bg-white rounded-2xl border border-zinc-200 overflow-hidden shadow-sm">
-            <div className="flex justify-between items-center p-4 border-b border-zinc-100">
-              <span className="text-zinc-700 font-medium">frontend-design</span>
-              <span className="text-zinc-400 font-mono text-xs bg-zinc-100 px-2 py-1 rounded">anthropics/skills</span>
-            </div>
-            <div className="flex justify-between items-center p-4 border-b border-zinc-100">
-              <span className="text-zinc-700 font-medium">vercel-react-best-practices</span>
-              <span className="text-zinc-400 font-mono text-xs bg-zinc-100 px-2 py-1 rounded">vercel-labs/agent-skills</span>
-            </div>
-            <div className="flex justify-between items-center p-4">
-              <span className="text-zinc-700 font-medium">web-design-guidelines</span>
-              <span className="text-zinc-400 font-mono text-xs bg-zinc-100 px-2 py-1 rounded">vercel-labs/agent-skills</span>
-            </div>
-          </div>
-        </section>
-
         {/* Footer */}
         <footer className="pt-8 border-t border-zinc-200 text-center text-sm text-zinc-500">
           <p className="mb-2">
