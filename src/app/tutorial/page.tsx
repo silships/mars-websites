@@ -29,9 +29,9 @@ export default function Tutorial() {
         {/* Header */}
         <header className="mb-16">
           <p className="text-[#ff4d00] text-xs tracking-[0.3em] mb-4">TUTORIAL</p>
-          <h1 className="text-4xl font-light mb-4">Build Premium Websites with AI</h1>
+          <h1 className="text-4xl font-light mb-4">Build cool Websites with AI</h1>
           <p className="text-zinc-500">
-            Using Cursor, Claude Code, and the premium-frontend-design skill.
+            Using Cursor, Claude Code and the premium-frontend-design skill
           </p>
         </header>
 
