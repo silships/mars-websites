@@ -10,12 +10,17 @@ export default function Tutorial() {
             ← Back
           </Link>
           <a 
-            href="https://skills.sh" 
+            href="https://www.linkedin.com/in/silbormueller/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-sm text-zinc-600 hover:text-white"
+            className="flex items-center gap-2 text-sm text-zinc-400 hover:text-white"
           >
-            skills.sh
+            <span>Sil Bormüller</span>
+            <img 
+              src="/sil-avatar.png" 
+              alt="Sil Bormüller" 
+              className="w-7 h-7 rounded-full object-cover"
+            />
           </a>
         </div>
       </nav>
