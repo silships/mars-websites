@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mars Websites
+
+Three distinct website variants about Mars, built with Next.js, Tailwind CSS, and Framer Motion.
+
+## Variants
+
+| Route | Style | Description |
+|-------|-------|-------------|
+| `/` | Terminal/Hacker | Boot sequence, CLI interface, ASCII art, live data feeds |
+| `/home2` | Premium Cinematic | Editorial design, parallax effects, film grain, atmospheric lighting |
+| `/home3` | Educational | Interactive facts, Mars quiz, exploration timeline, learning-focused |
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 15 (App Router)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **3D**: React Three Fiber (Terminal variant)
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+### Terminal Variant (`/`)
+- Simulated boot sequence with ASCII Mars
+- Interactive command line interface
+- Live telemetry simulation
+- Retro green/amber terminal aesthetic
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Premium Cinematic (`/home2`)
+- Parallax scroll effects
+- Film grain and atmospheric lighting
+- Animated dust particles
+- Full-screen journey phases
+- Editorial typography
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Educational (`/home3`)
+- Interactive expandable fact cards
+- Mars vs Earth comparisons
+- Water history timeline
+- 6-question Mars quiz
+- Mission exploration history
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
