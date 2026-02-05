@@ -48,24 +48,54 @@ export default function Tutorial() {
         {/* Run This Project */}
         <section className="mb-16">
           <h2 className="text-xs tracking-[0.2em] text-zinc-600 mb-6">RUN THIS PROJECT</h2>
-          <ol className="space-y-6">
+          <ol className="space-y-8">
             <li>
-              <p className="text-zinc-300 mb-2">1. Download or clone</p>
-              <Code>git clone https://github.com/silships/mars-websites.git</Code>
-            </li>
-            <li>
-              <p className="text-zinc-300 mb-2">2. Open in Cursor or Claude Code</p>
-              <p className="text-sm text-zinc-600">
-                <a href="https://cursor.com" target="_blank" rel="noopener noreferrer" className="text-[#ff4d00]">cursor.com</a>
+              <p className="text-zinc-300 mb-2">1. Open Terminal</p>
+              <p className="text-sm text-zinc-500 mb-3">
+                <span className="text-zinc-400">Mac:</span> Press <kbd className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs">Cmd + Space</kbd>, type "Terminal", press Enter
+              </p>
+              <p className="text-sm text-zinc-500">
+                <span className="text-zinc-400">Windows:</span> Press <kbd className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs">Win</kbd>, type "cmd", press Enter
               </p>
             </li>
             <li>
-              <p className="text-zinc-300 mb-2">3. Ask the AI</p>
-              <Prompt>Install dependencies and start the dev server</Prompt>
+              <p className="text-zinc-300 mb-2">2. Go to your projects folder</p>
+              <p className="text-sm text-zinc-500 mb-3">Navigate to where you want to save the project, for example your Desktop:</p>
+              <Code>cd ~/Desktop</Code>
             </li>
             <li>
-              <p className="text-zinc-300 mb-2">4. Open browser</p>
-              <p className="text-sm text-zinc-500">http://localhost:3000</p>
+              <p className="text-zinc-300 mb-2">3. Clone the project</p>
+              <p className="text-sm text-zinc-500 mb-3">This downloads the project to your computer:</p>
+              <Code>git clone https://github.com/silships/mars-websites.git</Code>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">4. Download Cursor</p>
+              <p className="text-sm text-zinc-500 mb-3">
+                Go to <a href="https://cursor.com" target="_blank" rel="noopener noreferrer" className="text-[#ff4d00]">cursor.com</a> and download the app for your system. Install it like any other app.
+              </p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">5. Open the project in Cursor</p>
+              <p className="text-sm text-zinc-500 mb-3">
+                In Cursor: <span className="text-zinc-400">File → Open Folder</span> → Navigate to <span className="text-zinc-400">Desktop → mars-websites</span> → Click Open
+              </p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">6. Open the AI chat</p>
+              <p className="text-sm text-zinc-500 mb-3">
+                Press <kbd className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs">Cmd + I</kbd> (Mac) or <kbd className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs">Ctrl + I</kbd> (Windows) to open the AI assistant
+              </p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">7. Ask the AI to start the project</p>
+              <p className="text-sm text-zinc-500 mb-3">Type this message and press Enter:</p>
+              <Prompt>Install dependencies and start the dev server</Prompt>
+              <p className="text-sm text-zinc-500 mt-3">The AI will run the commands for you. Wait until it says the server is running.</p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">8. View the website</p>
+              <p className="text-sm text-zinc-500 mb-3">Open your browser and go to:</p>
+              <p className="text-[#ff4d00] font-mono">http://localhost:3000</p>
             </li>
           </ol>
         </section>
@@ -82,21 +112,48 @@ export default function Tutorial() {
         {/* Create Your Own */}
         <section className="mb-16">
           <h2 className="text-xs tracking-[0.2em] text-zinc-600 mb-6">CREATE YOUR OWN</h2>
-          <ol className="space-y-6">
+          <ol className="space-y-8">
             <li>
-              <p className="text-zinc-300 mb-2">1. Create a new folder, open in Cursor</p>
+              <p className="text-zinc-300 mb-2">1. Create a new folder</p>
+              <p className="text-sm text-zinc-500 mb-3">Open Terminal and create a new project folder:</p>
+              <div className="space-y-2">
+                <Code>cd ~/Desktop</Code>
+                <Code>mkdir my-cool-website</Code>
+              </div>
             </li>
             <li>
-              <p className="text-zinc-300 mb-2">2. Install the skill</p>
-              <Code>npx skills add kv0906/cc-skills/premium-frontend-design</Code>
+              <p className="text-zinc-300 mb-2">2. Open in Cursor</p>
+              <p className="text-sm text-zinc-500 mb-3">
+                In Cursor: <span className="text-zinc-400">File → Open Folder</span> → Navigate to <span className="text-zinc-400">Desktop → my-cool-website</span> → Click Open
+              </p>
             </li>
             <li>
-              <p className="text-zinc-300 mb-2">3. Ask for what you want</p>
+              <p className="text-zinc-300 mb-2">3. Open the AI chat</p>
+              <p className="text-sm text-zinc-500 mb-3">
+                Press <kbd className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs">Cmd + I</kbd> (Mac) or <kbd className="px-2 py-1 bg-white/5 border border-white/10 rounded text-xs">Ctrl + I</kbd> (Windows)
+              </p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">4. Install the skill</p>
+              <p className="text-sm text-zinc-500 mb-3">Ask the AI:</p>
+              <Prompt>Install the premium-frontend-design skill from kv0906/cc-skills</Prompt>
+              <p className="text-sm text-zinc-500 mt-3">The AI will run the install command for you.</p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">5. Ask for what you want</p>
+              <p className="text-sm text-zinc-500 mb-3">Now just describe what you want to build:</p>
               <div className="space-y-2">
                 <Prompt>Create a premium website about space exploration</Prompt>
                 <Prompt>Build a cinematic landing page for a coffee brand</Prompt>
                 <Prompt>Make a terminal-style portfolio website</Prompt>
               </div>
+              <p className="text-sm text-zinc-500 mt-3">The AI will create everything for you.</p>
+            </li>
+            <li>
+              <p className="text-zinc-300 mb-2">6. Start and view your website</p>
+              <p className="text-sm text-zinc-500 mb-3">Ask the AI:</p>
+              <Prompt>Start the dev server</Prompt>
+              <p className="text-sm text-zinc-500 mt-3">Then open <span className="text-[#ff4d00]">http://localhost:3000</span> in your browser.</p>
             </li>
           </ol>
         </section>
