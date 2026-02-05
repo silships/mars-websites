@@ -124,8 +124,10 @@ export default function Tutorial() {
             </Step>
             <Step num={4} title="Install the skill">
               <p className="text-sm text-zinc-500 mb-3">Ask the AI:</p>
-              <Prompt>Install the premium-frontend-design skill from kv0906/cc-skills</Prompt>
-              <p className="text-sm text-zinc-500 mt-3">The AI will run the install command for you.</p>
+              <Prompt>Run: npx skills add kv0906/cc-skills/premium-frontend-design</Prompt>
+              <p className="text-sm text-zinc-500 mt-3">
+                Or browse more skills at <a href="https://skills.sh" target="_blank" rel="noopener noreferrer" className="text-[#ff4d00] font-medium hover:underline">skills.sh</a>
+              </p>
             </Step>
             <Step num={5} title="Ask for what you want">
               <p className="text-sm text-zinc-500 mb-3">Now just describe what you want to build:</p>
