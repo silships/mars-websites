@@ -2,6 +2,8 @@
 
 Three stunning website variants about Mars, built with AI assistance using the [premium-frontend-design](https://skills.sh/) skill.
 
+Created by [Sil Bormüller](https://www.linkedin.com/in/silbormueller/)
+
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC)
 ![Framer Motion](https://img.shields.io/badge/Framer-Motion-FF0055)
@@ -13,6 +15,7 @@ Three stunning website variants about Mars, built with AI assistance using the [
 | `/` | Terminal/Hacker | Boot sequence, CLI interface, ASCII art |
 | `/home2` | Premium Cinematic | Editorial design, parallax, film grain |
 | `/home3` | Educational | Interactive facts, quiz, timeline |
+| `/tutorial` | Tutorial | How to build this yourself |
 
 ---
 
@@ -82,5 +85,7 @@ Just ask your AI:
 MIT
 
 ---
+
+Created by [Sil Bormüller](https://www.linkedin.com/in/silbormueller/)
 
 Built with [Cursor](https://cursor.com/) + [premium-frontend-design skill](https://skills.sh/)

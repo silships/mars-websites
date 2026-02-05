@@ -117,7 +117,10 @@ export default function Tutorial() {
 
         {/* Footer */}
         <footer className="pt-8 border-t border-white/10 text-center text-sm text-zinc-600">
-          Built with Cursor + premium-frontend-design skill
+          <p className="mb-2">
+            Created by <a href="https://www.linkedin.com/in/silbormueller/" target="_blank" rel="noopener noreferrer" className="text-[#ff4d00] hover:underline">Sil Bormüller</a>
+          </p>
+          <p>Built with Cursor + premium-frontend-design skill</p>
         </footer>
       </div>
     </main>
