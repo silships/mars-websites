@@ -146,7 +146,7 @@ export default function Tutorial() {
 
         {/* Other Skills */}
         <section className="mb-16">
-          <h2 className="text-xs tracking-[0.2em] text-zinc-400 mb-6 font-medium">OTHER SKILLS</h2>
+          <h2 className="text-xs tracking-[0.2em] text-zinc-400 mb-6 font-medium">OTHER SKILLS TO EXPLORE</h2>
           <div className="bg-white rounded-2xl border border-zinc-200 overflow-hidden shadow-sm">
             <div className="flex justify-between items-center p-4 border-b border-zinc-100">
               <span className="text-zinc-700 font-medium">frontend-design</span>
